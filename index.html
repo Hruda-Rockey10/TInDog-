@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>TinDog</title>
+    <link
+      rel="icon"
+      href="https://cdn-icons-png.flaticon.com/512/2064/2064863.png"
+    />
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=EB+Garamond&family=Lora&family=Merriweather&family=Merriweather+Sans:ital@1&family=Montserrat&family=Raleway&family=Roboto+Slab&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- bootstarp link -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <!-- javascript link -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Icons link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- bootsnip -->
+    <!-- <link
+      href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
+      rel="stylesheet"
+      id="bootstrap-css"
+    /> -->
+    <!-- <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script> -->
+    <!-- <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> -->
+
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+
+  <body>
+    <section id="title">
+      <!--------------------------------- Section tag for section portion of the site----------------------->
+      <!-- Nav Bar -->
+      <nav class="navbar bg-dark navbar-expand-lg navbar-dark">
+        <a class="navbar-brand">Tindog🐾</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto ul">
+            <li class="nav-item">
+              <a class="nav-link" href="#footer">Contact</a>
+              <!-- in herf use (id) "id starts with # "
+                    after clicking contact it will redirect to #footer block where my contacts are available-->
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#pricing">Pricing</a>
+              <!-- in herf use (id) "id starts with # "
+                    after clicking pricing it will redirect to #pricing block-->
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#cta">Download</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <!-- Title -->
+      <div class="container-fluid">
+        <div class="row xyz">
+          <div class="col-lg-6 left1">
+            <h1>Meet new and interesting dogs nearby.</h1>
+            <button type="button" class="btn btn-dark btn-lg dwnl">
+              <i class="fa-brands fa-apple"></i>
+              Download
+            </button>
+            <button type="button" class="btn btn-outline-dark btn-lg dwnl">
+              <i class="fa-brands fa-google-play"></i>
+              Download
+            </button>
+          </div>
+          <div class="col-lg-6">
+            <img
+              width="100%"
+              height="600px"
+              src="images/dog.png"
+              alt="iphone-mockup"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Features -->
+
+    <section id="features">
+      <!-- use Sections for easy access-->
+      <div class="row xyz1">
+        <div class="col-lg-4 coll">
+          <i class="fa-solid fa-check-to-slot fa-5x"></i>
+          <h3 class="tp1">Easy to use.</h3>
+          <p class="bt1">So easy to use, even your dog could do it.</p>
+        </div>
+
+        <div class="col-lg-4 coll">
+          <i class="fa-regular fa-circle-check fa-5x"></i>
+          <h3 class="tp1">Elite Clientele</h3>
+          <p class="bt1">We have all the dogs, the greatest dogs.</p>
+        </div>
+
+        <div class="col-lg-4 coll">
+          <i class="fa-regular fa-heart fa-5x"></i>
+          <h3 class="tp1">Guaranteed to work.</h3>
+          <p class="bt1">
+            Find the love of your dog's life or your money back.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials -->
+
+    <section id="testimonials">
+      <div
+        id="carouselExampleIndicators"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <h2>
+              I no longer have to sniff other dogs for love. I've found the
+              hottest Corgi on TinDog. Woof.
+            </h2>
+            <img class="dog-img" src="images/dog-img.jpg" alt="dog-profile" />
+            <em>Pebbles, New York</em>
+          </div>
+          <div class="carousel-item">
+            <h2 class="testimonial-text">
+              My dog used to be so lonely, but with TinDog's help, they've found
+              the love of their life. I think.
+            </h2>
+            <img class="dog-img" src="images/lady-img.jpg" alt="lady-profile" />
+            <em>Beverly, Illinois</em>
+          </div>
+          <div class="carousel-item">
+            <h2 class="testimonial-text">
+              Do you brust into tears when you make eye contact with a dog whose
+              eyes speak thousand words to you :)
+            </h2>
+            <img class="dog-img" src="images/idk.jpg" alt="lady-profile" />
+            <em>Moon , Solar System</em>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+
+    <!-- Press -->
+
+    <section id="press">
+      <img class="press-img" src="images/techcrunch.png" alt="tc-logo" />
+      <img class="press-img" src="images/tnw.png" alt="tnw-logo" />
+      <img
+        class="press-img"
+        src="images/bizinsider.png"
+        alt="biz-insider-logo"
+      />
+      <img class="press-img" src="images/mashable.png" alt="mashable-logo" />
+    </section>
+
+    <!-- Pricing -->
+    <section id="pricing">
+      <div class="demo11">
+        <div class="container">
+          <h2 style="padding-top: 10px">A Plan for Every Dog's Needs</h2>
+          <p style="padding-bottom: 30px">
+            Simple and affordable price plans for your and your dog.
+          </p>
+          <div class="row">
+            <div class="col-lg-4 col-md-6">
+              <div class="pricingTable11">
+                <div class="pricingTable-header">
+                  <i class="fa fa-adjust"></i>
+                  <div class="price-value">
+                    $10.00 <span class="month">per month</span>
+                  </div>
+                </div>
+                <h3 class="heading">Standard</h3>
+                <div class="pricing-content">
+                  <ul>
+                    <li><b>5 </b>Matches Per Day</li>
+                    <li><b>10</b> Messages per day</li>
+
+                    <li><b>♾️</b> Unlimited App usage</li>
+                  </ul>
+                </div>
+                <div class="pricingTable-signup">
+                  <a href="#">sign up</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6">
+              <div class="pricingTable11 green">
+                <div class="pricingTable-header">
+                  <i class="fa fa-briefcase"></i>
+                  <div class="price-value">
+                    $20.00 <span class="month">per month</span>
+                  </div>
+                </div>
+                <h3 class="heading">Business</h3>
+                <div class="pricing-content">
+                  <ul>
+                    <li><b>♾️</b> Unlimited Matches</li>
+                    <li><b>♾️</b> Unlimited Messages</li>
+                    <li><b>♾️</b> Unlimited App usage</li>
+
+                    <li><b>12hr</b> Premium Access to New Pets</li>
+                  </ul>
+                </div>
+                <div class="pricingTable-signup">
+                  <a href="#">sign up</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="pricingTable11 blue">
+                <div class="pricingTable-header">
+                  <i class="fa fa-diamond"></i>
+                  <div class="price-value">
+                    $30.00 <span class="month">per month</span>
+                  </div>
+                </div>
+                <h3 class="heading">Premium</h3>
+                <div class="pricing-content">
+                  <ul>
+                    <li>Pirority Listing Of pets</li>
+                    <li><b>♾️</b> Unlimited Matches</li>
+                    <li><b>♾️</b> Unlimited Messages</li>
+                    <li><b>♾️</b> Unlimited Usage</li>
+                    <li><b>24hr</b> Premium Access to New Pets</li>
+                  </ul>
+                </div>
+                <div class="pricingTable-signup">
+                  <a href="#">sign up</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--hr /-->
+      <!-- Suffered a lot becz of this line break(hr) (remove the tag or comment)-->
+    </section>
+
+    <!-- Call to Action -->
+
+    <section id="cta">
+      <h3 class="cta-head">Find the True Love of Your Dog's Life Today.</h3>
+      <button type="button" class="btn btn-dark btn-lg dwnl">
+        <i class="fa-brands fa-apple"></i>
+        Download
+      </button>
+      <button type="button" class="btn btn-outline-light btn-lg dwnl">
+        <i class="fa-brands fa-google-play"></i>
+        Download
+      </button>
+    </section>
+
+    <!-- Footer -->
+    <section id="footer">
+      <div class="bottom-container">
+        <img
+          width="30"
+          height="30"
+          src="https://cdn-icons-png.flaticon.com/128/145/145807.png"
+          alt="linkedin-img"
+          class="footer-img"
+        />
+
+        <a
+          class="footer-link"
+          href="https://www.linkedin.com/in/hrudananda-behera-212176243"
+        >
+          LinkedIn
+        </a>
+
+        <img
+          width="30"
+          height="30"
+          src="https://cdn-icons-png.flaticon.com/128/3670/3670151.png"
+          alt="twitter-img"
+          class="footer-img"
+        />
+
+        <a
+          class="footer-link"
+          href="https://twitter.com/Rockey7978?t=LR50RZquDR6OfqOqxCMrTg&s=08"
+        >
+          Twitter
+        </a>
+
+        <img
+          width="30"
+          height="30"
+          src="https://cdn-icons-png.flaticon.com/128/174/174855.png"
+          alt="insta-img"
+          class="footer-img"
+        />
+
+        <a
+          class="footer-link"
+          href="https://instagram.com/hruda_rockey102?igshid=ZDdkNTZiNTM="
+        >
+          Instagram
+        </a>
+
+        <p class="trademark">
+          ©'22 Rockey102
+          <img
+            class="trademark-img"
+            src="images/hb-png.png"
+            width="18"
+            height="18"
+            alt="Trademark-logo"
+          />
+        </p>
+      </div>
+    </section>
+  </body>
+</html>

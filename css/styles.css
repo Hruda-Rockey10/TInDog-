@@ -1,0 +1,299 @@
+body {
+  background-color: white;
+  text-align: center;
+}
+
+#title {
+  background-color: #faf8f1;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+.nav-link {
+  font-size: 20px;
+}
+.navbar-brand {
+  font-size: 5rem;
+  padding-top: 0;
+  margin-top: 0;
+  border-top-width: 0;
+}
+.navbar {
+  padding-left: 250px; /* for tindog */
+  margin: 0;
+  padding: 0;
+  padding-left: 250px;
+}
+#navbarSupportedContent {
+  padding-right: 250px; /* for contents*/
+}
+
+/* ------- Main page------------- */
+.left1 {
+  padding-top: 90px;
+  text-align: center; /*bring the content to centre  */
+}
+
+.xyz {
+  margin: 0; /*there was a issue for  div getting out of screen */
+  background-color: #faf8f1;
+}
+h1 {
+  font-family: "Bree Serif", serif;
+  line-height: 1.5;
+  font-size: 5rem;
+  text-align: center; /*keeps in centre the text */
+}
+
+.dwnl {
+  margin: 3% 5% 3% 0;
+}
+
+/*------------------------------ Second container ------------------------------------*/
+#features {
+  padding: 7% 15%;
+
+  background-color: #fff8e1;
+  padding-bottom: 20px;
+  padding-top: 100px;
+}
+
+.xyz1 {
+  text-align: center;
+  margin: 0;
+}
+.coll {
+  padding-bottom: 10px;
+  padding-top: 10px;
+  margin-bottom: 30px;
+}
+.tp1 {
+  font-family: "Roboto Slab", serif;
+}
+.bt1 {
+  color: #3c2a21;
+  size: 1.6rem;
+}
+.fa-5x {
+  margin-bottom: 30px;
+
+  color: #ff9e9e;
+}
+.fa-5x:hover {
+  color: #ff4c68;
+}
+
+/* ------------------------third conatiner-------------------------------- */
+#testimonials {
+  text-align: center;
+  background-color: #e5ba73;
+  color: #ffffff; /*to make the fonts inside the class of a particular color only text */
+}
+.carousel-item {
+  padding: 7% 15%;
+}
+.dog-img {
+  width: 15%;
+  padding: 20px;
+  border-radius: 100%; /* to make the img rounded like circle*/
+}
+#press {
+  text-align: center;
+  padding-bottom: 3%;
+  background-color: #e5ba73;
+}
+
+.press-img {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+h2 {
+  font-size: 4rem;
+  line-height: 1.5;
+  font-family: "Bree Serif", serif;
+}
+
+/*--------------------------------------- pricing ------------------------------------*/
+#pricing {
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+.demo11 {
+  background: #b1ea86;
+  padding: 30px 0 50px 0;
+}
+
+.pricingTable11 {
+  text-align: center;
+  background: #fff;
+  margin: 0 -15px;
+  box-shadow: 0 0 10px #ababab;
+  padding-bottom: 40px;
+  border-radius: 10px;
+  color: #cad0de;
+  transform: scale(1);
+  transition: all 0.5s ease 0s;
+}
+.pricingTable11:hover {
+  transform: scale(1.05);
+  z-index: 1;
+}
+.pricingTable11 .pricingTable-header {
+  padding: 40px 0;
+  background: #f5f6f9;
+  border-radius: 10px 10px 50% 50%;
+  transition: all 0.5s ease 0s;
+}
+.pricingTable11:hover .pricingTable-header {
+  background: #ff9624;
+}
+.pricingTable11 .pricingTable-header i {
+  font-size: 50px;
+  color: #858c9a;
+  margin-bottom: 10px;
+  transition: all 0.5s ease 0s;
+}
+.pricingTable11 .price-value {
+  font-size: 35px;
+  color: #ff9624;
+  transition: all 0.5s ease 0s;
+}
+.pricingTable11 .month {
+  display: block;
+  font-size: 14px;
+  color: #cad0de;
+}
+.pricingTable11:hover .month,
+.pricingTable11:hover .price-value,
+.pricingTable11:hover .pricingTable-header i {
+  color: #fff;
+}
+.pricingTable11 .heading {
+  font-size: 24px;
+  color: #ff9624;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+.pricingTable11 .pricing-content ul {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 30px;
+}
+.pricingTable11 .pricing-content ul li {
+  line-height: 30px;
+  color: #a7a8aa;
+}
+.pricingTable11 .pricingTable-signup a {
+  display: inline-block;
+  font-size: 15px;
+  color: #fff;
+  padding: 10px 35px;
+  border-radius: 20px;
+  background: #ffa442;
+  text-transform: uppercase;
+  transition: all 0.3s ease 0s;
+}
+.pricingTable11 .pricingTable-signup a:hover {
+  box-shadow: 0 0 10px #ffa442;
+}
+.pricingTable11.blue .heading,
+.pricingTable11.blue .price-value {
+  color: #4b64ff;
+}
+.pricingTable11.blue .pricingTable-signup a,
+.pricingTable11.blue:hover .pricingTable-header {
+  background: #4b64ff;
+}
+.pricingTable11.blue .pricingTable-signup a:hover {
+  box-shadow: 0 0 10px #4b64ff;
+}
+.pricingTable11.red .heading,
+.pricingTable11.red .price-value {
+  color: #ff4b4b;
+}
+.pricingTable11.red .pricingTable-signup a,
+.pricingTable11.red:hover .pricingTable-header {
+  background: #ff4b4b;
+}
+.pricingTable.red .pricingTable-signup a:hover {
+  box-shadow: 0 0 10px #ff4b4b;
+}
+.pricingTable11.green .heading,
+.pricingTable11.green .price-value {
+  color: #40c952;
+}
+.pricingTable11.green .pricingTable-signup a,
+.pricingTable11.green:hover .pricingTable-header {
+  background: #40c952;
+}
+.pricingTable11.green .pricingTable-signup a:hover {
+  box-shadow: 0 0 10px #40c952;
+}
+.pricingTable11.blue:hover .price-value,
+.pricingTable11.green:hover .price-value,
+.pricingTable11.red:hover .price-value {
+  color: #fff;
+}
+
+/* ---------------------------------cta------------------------------------------ */
+
+#cta {
+  background-color: #eb455f;
+  color: #ffffff;
+  text-align: center;
+  margin: 0;
+  padding-top: 0;
+  margin-top: 0;
+
+  line-height: 1.5;
+}
+.cta-head {
+  font-family: "Roboto Slab", serif;
+  font-size: 3rem;
+  padding-top: 50px;
+}
+
+/* ------------------------------------footer---------------------------------------------------- */
+.bottom-container {
+  background-color: #66bfbf;
+  padding-bottom: 10px;
+  height: 120px;
+  padding-top: 20px;
+}
+.footer-img {
+  display: inline-block;
+  margin-right: 5px;
+  position: relative;
+  top: 0px;
+  margin-bottom: 10px;
+  margin-left: 5px;
+}
+
+.footer-link {
+  color: #11999e;
+  text-decoration: none; /* default is underline ..so changing to normal*/
+  margin-right: 30px;
+  margin-top: 30px;
+  font-size: 1.2rem;
+}
+
+.footer-link:hover {
+  color: #eaf6f6; /* gives a beautiful look while hovering*/
+}
+
+.trademark {
+  color: #eaf6f6;
+
+  padding-top: 10px;
+}
+.trademark-img {
+  position: relative;
+  top: 3px;
+}
+@media screen and (max-width: 990px) {
+  .pricingTable11 {
+    margin: 0 0 20px;
+  }
+}
